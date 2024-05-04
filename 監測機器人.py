@@ -38,7 +38,7 @@ async def on_message(message):
 
   if message.channel != 'sever':
     # 獲取要發言的頻道
-    channel = client.get_channel(1232331488528171129)  # 替換 YOUR_CHANNEL_ID 為目標頻道的 ID
+    channel = client.get_channel(YOUR_CHAANNEL_ID)  # 替換 YOUR_CHANNEL_ID 為目標頻道的 ID
 
     
     nickname = message.author.nick or message.author.name
